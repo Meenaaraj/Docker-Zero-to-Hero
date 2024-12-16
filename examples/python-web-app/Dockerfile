@@ -18,7 +18,7 @@ RUN apt-get update && \
 ENV PATH="/venv/bin:$PATH"
 
 # Set the working directory to the 'devops' folder (if it contains your Django project)
-WORKDIR /app/devops
+WORKDIR /devops
 
 # Expose the port on which Django will run
 EXPOSE 8000
